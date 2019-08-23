@@ -17,15 +17,15 @@ const consume = function (a, b, cb) {
 */
 function add(a, b) {
   return (a + b);
-}
+};
 
 function multiply(a, b) {
   return (a * b);
-}
+};
 
 const greeting = function (a, b) {
-  return (`"Hello ${a} ${b}, nice to meet you!"`)
-}
+  return (`"Hello ${a} ${b}, nice to meet you!"`);
+};
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 console.log(consume(2, 2, add)); // 4
@@ -37,7 +37,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: nestedfunction can access variable internal because it is nested within the function's scope considering the inheritance pattern works on a downwards flow.
+// Explanation: nestedfunction can access variable internal because it is nested within the function's scope and also considering the inheritance pattern works on a downwards flow.
 
 
 const external = "I'm outside the function";
